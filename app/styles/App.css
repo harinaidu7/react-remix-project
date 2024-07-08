@@ -1,0 +1,86 @@
+.card {
+    display: flex;
+  }
+  
+  .card-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+  }
+  
+  .card-title {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  
+  .card {
+    margin-top: 10px;
+  }
+  
+  .star-icon {
+    width: 16px;
+    margin-bottom: 4px;
+    margin-right: 3px;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+  }
+  
+  h1, h2, h3 {
+    color: white;
+  }
+  
+  .react-select-async-paginate__input {
+    width: 200px; 
+  }
+  
+  .search-bar {
+    width: 75%;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .search-header {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #66fcf1;
+    margin-bottom: 20px; 
+  }
+  
+  .search-results {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 75%; 
+    border: 1px solid #ccc;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: white; 
+    color: black; 
+    position: absolute; 
+    top: 150px; 
+    z-index: 1; 
+  }
+  
+  .search-results li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .search-results li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .fallback-image {
+   
+    height: 33vh;
+    object-fit: cover; 
+  }
+  
