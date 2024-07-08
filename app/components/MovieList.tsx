@@ -1,4 +1,4 @@
-// app/components/MovieList.tsx
+
 import MovieCard from "./MovieCard";
 import '../styles/App.css';
 type Movie = {

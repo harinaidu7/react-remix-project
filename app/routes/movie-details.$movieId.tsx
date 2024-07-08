@@ -1,9 +1,9 @@
-// src/routes/movie-details.$movieId.tsx
+
 
 import { LoaderFunction, useLoaderData } from '@remix-run/react';
 import { json } from '@remix-run/node';
 import { popularURL } from '~/config/api';
-import '~/styles/movie-details.css'; // Import the CSS file
+import '~/styles/movie-details.css'; 
 type LoaderData = {
   movieDetails: {
     id: number;

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "@remix-run/react";
-import { apiURL } from "~/config/api"; // Adjust path as per your project setup
+import { apiURL } from "~/config/api"; 
 import { Link } from "react-router-dom";
 // import { LazyLoadImage } from 'react-lazy-load-image-component';
 // import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -46,7 +46,7 @@ export default function SearchResults() {
   };
 
   if (!query) {
-    return null; // Handle cases where query is not available
+    return null; 
   }
 
   return (

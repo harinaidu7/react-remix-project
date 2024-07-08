@@ -1,4 +1,4 @@
-// app/components/MovieCard.tsx
+
 import { Link } from "@remix-run/react";
 // import starSVG from '~/assets/star-svgrepo-com.svg';
 import '../styles/App.css';
